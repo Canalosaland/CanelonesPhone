@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AccountFragment">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageProfileMain"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_account"
+        app:riv_oval="true" />
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/textview_panel_username"
+        android:textSize="24sp"
+        android:layout_marginTop="165dp" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/ic_bank"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textViewMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/bal_layout"
+        android:textSize="16sp"
+        android:textColor="@color/green" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_wifi" />
+
+    <TextView
+        android:id="@+id/textViewInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/wifi_layout"
+        android:textSize="16sp"
+        android:textColor="@color/blue50" />
+
+    <ImageView
+        android:id="@+id/imageViewOwner"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_not_transmitter" />
+
+    <TextView
+        android:id="@+id/textViewOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/wifi_no_transmitter"
+        android:textSize="16sp"
+        android:textColor="@color/darkblue30" />
+</FrameLayout>

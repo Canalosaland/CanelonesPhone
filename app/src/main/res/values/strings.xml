@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Canelones Phone</string>
+    <string name="title_activity_main">Canelones Phone</string>
+    <string name="textview_canelones">Canelones Phone</string>
+    <string name="textview_login">Inicia sesión</string>
+    <string name="textview_usuario">Usuario</string>
+    <string name="textview_contra">Contraseña</string>
+    <string name="textview_panel_username">USUARIO1234</string>
+    <string name="button_login">Log In</string>
+    <string name="button_click_accept">Aceptar</string>
+    <string name="edit_user">Usuario</string>
+    <string name="edit_pass">Contraseña</string>
+    <string name="response_auth_ok">Credenciales correctas!</string>
+    <string name="response_auth_bad_error">Hubo un error en la comunicación con el servidor.</string>
+    <string name="response_auth_bad_credentials">El usuario o la contraseña introducida es incorrecta.</string>
+    <string name="response_auth_bad_uuid">El usuario no está conectado actualmente, compruebe que este conectado y que haya escrito el usuario bien.</string>
+    <string name="response_auth_bad_unknown">El servidor ha devuelto algo no esperado. Contacte al desarrollador!</string>
+    <string name="account">Cuenta</string>
+    <string name="bizum">Bizum</string>
+    <string name="internet">Internet</string>
+    <string name="bal_layout">0.00$</string>
+    <string name="wifi_layout">Sin compañía telefónica</string>
+    <string name="wifi_layout_mini">Sin compañía</string>
+    <string name="wifi_transmitter">Eres dueño de la compañía</string>
+    <string name="wifi_no_transmitter">No eres dueño de la compañía</string>
+    <string name="wifi_transmitter_mini">Eres dueño</string>
+    <string name="wifi_no_transmitter_mini">No eres dueño</string>
+    <string name="textview_bizum_envia">Enviar bizum a:</string>
+    <string name="enviar_bizum">Enviar bizum</string>
+    <string name="_0">0</string>
+    <string name="dar_de_baja">Dar de baja</string>
+    <string name="dar_de_alta">Dar de alta</string>
+    <string-array name="spinner_layout">
+        <item>Los usuarios</item>
+        <item>estan cargando...</item>
+    </string-array>
+</resources>

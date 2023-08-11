@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuAccount">
+
+    <fragment
+        android:id="@+id/menuAccount"
+        android:name="me.pk2.canalosaland.cphone.fragment.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/menuBizum"
+        android:name="me.pk2.canalosaland.cphone.fragment.BizumFragment"
+        android:label="@string/bizum"
+        tools:layout="@layout/fragment_bizum" />
+    <fragment
+        android:id="@+id/menuInternet"
+        android:name="me.pk2.canalosaland.cphone.fragment.InternetFragment"
+        android:label="@string/internet"
+        tools:layout="@layout/fragment_internet" />
+</navigation>

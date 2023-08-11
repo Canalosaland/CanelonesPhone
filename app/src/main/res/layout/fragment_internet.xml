@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.InternetFragment">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_celltower"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:tint="#00C300" />
+
+    <TextView
+        android:id="@+id/textViewProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wifi_layout_mini"
+        android:textSize="24sp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonProviderUnsubscribe"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dar_de_baja"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="80dp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/textViewProviderOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wifi_no_transmitter_mini"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="74dp"
+        android:textSize="18sp"
+        android:textColor="@color/blue30" />
+
+    <Button
+        android:id="@+id/buttonProviderSubscribe"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dar_de_alta"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="80dp"
+        android:enabled="false" />
+
+    <Spinner
+        android:id="@+id/spinnerProvider"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="80dp" />
+</FrameLayout>
